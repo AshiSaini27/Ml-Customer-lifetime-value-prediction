@@ -125,7 +125,7 @@ Streamlit Deployment
 
 ## 📉 Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/feature_importance1.png)
 
 ---
 
@@ -226,6 +226,3 @@ Machine Learning & Data Science Enthusiast
 ---
 
 
-## 📄 License
-
-This project is intended for educational and portfolio purposes.
