@@ -1,48 +1,76 @@
+# 💰 Customer Lifetime Value Prediction
 
-💰 Customer Lifetime Value Prediction
+An end-to-end Machine Learning project that predicts **Customer Lifetime Value (CLV)** using a **Random Forest Regressor** with **Hyperparameter Tuning** and an interactive **Streamlit Dashboard**.
 
-Predict the Customer Lifetime Value (CLV) of insurance customers using Machine Learning and an interactive Streamlit dashboard.
+This project helps businesses estimate the long-term value of customers, enabling better marketing strategies, customer retention, and revenue optimization.
 
-🚀 Live Demo
+---
 
-👉 Streamlit App: (Add your deployment link here)
+## 🚀 Live Demo
 
-📌 Project Overview
+🔗 **Streamlit App:** *Add your deployment link here*
 
-Customer Lifetime Value (CLV) is one of the most important business metrics that estimates the total revenue a customer is expected to generate during their relationship with a company.
+---
 
-This project uses Machine Learning to predict CLV based on customer demographics, policy details, income, claims, and other business features.
+## 📌 Project Overview
 
-✨ Features
-📊 Interactive Streamlit Dashboard
-🤖 Machine Learning Prediction
-📈 Analytics Dashboard
-🔍 Exploratory Data Analysis
-⚙ Hyperparameter Tuned Model
-🎯 Customer Value Categorization
-📉 Feature Importance Visualization
-📂 Dataset
+Customer Lifetime Value (CLV) is one of the most important business metrics that estimates the total revenue a customer is expected to generate throughout their relationship with a company.
 
-IBM Marketing Customer Value Analysis Dataset
+This application predicts the lifetime value of an insurance customer using demographic information, policy details, claims history, and other customer attributes.
 
-9,134 Customers
-24 Features
-Target Variable:
-Customer Lifetime Value
-🛠 Tech Stack
-Python
-Pandas
-NumPy
-Scikit-learn
-Streamlit
-Matplotlib
-Seaborn
-Joblib
-🤖 Machine Learning Workflow
+The project demonstrates a complete Machine Learning workflow from data preprocessing to deployment.
+
+---
+
+## ✨ Key Features
+
+- 📊 Interactive Streamlit Dashboard
+- 🤖 Machine Learning-based CLV Prediction
+- 📈 Exploratory Data Analysis (EDA)
+- ⚙️ Hyperparameter Tuning using RandomizedSearchCV
+- 🌲 Random Forest Regression Model
+- 📉 Feature Importance Visualization
+- 📋 Business-Friendly Prediction Results
+- 🎯 Customer Value Segmentation
+
+---
+
+## 📂 Dataset
+
+**Dataset:** IBM Marketing Customer Value Analysis
+
+### Dataset Summary
+
+| Property | Value |
+|----------|------:|
+| Records | 9,134 |
+| Features | 24 |
+| Target Variable | Customer Lifetime Value |
+
+The dataset contains customer demographics, insurance policy information, claim history, income, vehicle details, and marketing response data.
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Tools |
+|----------|-------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Visualization | Matplotlib |
+| Deployment | Streamlit |
+| Model Saving | Joblib |
+
+---
+
+## 🤖 Machine Learning Workflow
+
+```
 Data Collection
        │
        ▼
-Data Cleaning
+Data Preprocessing
        │
        ▼
 Exploratory Data Analysis
@@ -57,32 +85,51 @@ Model Training
 Hyperparameter Tuning
        │
        ▼
-Prediction
+Feature Importance Analysis
        │
        ▼
-Deployment
+Streamlit Deployment
+```
 
-📊 Model Performance
-Metric	Score
-R² Score	0.6954
-MAE	1468.01
-RMSE	3961.93
+---
 
-📷 Project Screenshots
-🏠 Home Page
+## 📊 Model Performance
+
+| Metric | Score |
+|---------|------:|
+| R² Score | **0.6954** |
+| Mean Absolute Error (MAE) | **1468.01** |
+| Root Mean Squared Error (RMSE) | **3961.93** |
+
+---
+
+# 📷 Application Preview
+
+## 🏠 Home Dashboard
+
 ![Home](images/home.png)
-📈 Prediction
+
+---
+
+## 📈 Customer Lifetime Value Prediction
+
 ![Prediction](images/prediction.png)
-📊 Analytics Dashboard
+
+---
+
+## 📊 Analytics Dashboard
+
 ![Analytics](images/analytics.png)
-🔥 Feature Importance
+
+---
+
+## 📉 Feature Importance
+
 ![Feature Importance](images/feature_importance.png)
 
+---
 
-📁 Project Structure
-
-
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 Customer-Lifetime-Value-Prediction
@@ -94,10 +141,10 @@ Customer-Lifetime-Value-Prediction
 │
 ├── 01_data_loading.py
 ├── 02_data_preprocessing.py
-├── 03_exploratory_data_analysis.py
-├── 04_model_training.py
+├── 03_eda.py
 ├── 05_advanced_model_training.py
 ├── 06_hyperparameter_tuning.py
+├── 07_feature_importance.py
 │
 ├── data/
 │   └── WA_Fn-UseC_-Marketing-Customer-Value-Analysis.csv
@@ -114,20 +161,71 @@ Customer-Lifetime-Value-Prediction
 │   ├── income_distribution.png
 │   ├── coverage.png
 │   ├── vehicle_class.png
-│   └── correlation_heatmap.png 
+│   └── correlation_heatmap.png
+│
+└── LICENSE (Optional)
+```
 
- 
-⚡ Installation
+---
 
+# ⚡ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/customer-lifetime-value-prediction.git
+```
+
+Navigate to the project directory
+
+```bash
+cd customer-lifetime-value-prediction
+```
+
+Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+Run the application
+
+```bash
 streamlit run app.py
+```
+
+---
+
+# 🎯 Future Improvements
+
+- XGBoost & LightGBM implementation
+- Advanced feature engineering
+- Interactive Plotly visualizations
+- Customer segmentation dashboard
+- Cloud deployment enhancements
+- SHAP explainability for model predictions
+
+---
+
+# 👨‍💻 Developer
+
+## Ashi Saini
+
+Machine Learning & Data Science Enthusiast
+
+**Skills**
+
+- Python
+- Machine Learning
+- Data Analysis
+- Scikit-learn
+- Streamlit
+- Pandas
+- NumPy
+
+---
 
 
-👨‍💻 Developer
+## 📄 License
 
-Ashi Saini
-
-Machine Learning Enthusiast
-
-Python • Data Science • Machine Learning • Streamlit
+This project is intended for educational and portfolio purposes.
