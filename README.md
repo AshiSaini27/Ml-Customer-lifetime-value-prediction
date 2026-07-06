@@ -170,18 +170,6 @@ Customer-Lifetime-Value-Prediction
 
 # ⚡ Installation
 
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/customer-lifetime-value-prediction.git
-```
-
-Navigate to the project directory
-
-```bash
-cd customer-lifetime-value-prediction
-```
-
 Install dependencies
 
 ```bash
