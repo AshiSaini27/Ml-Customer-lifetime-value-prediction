@@ -8,7 +8,7 @@ This project helps businesses estimate the long-term value of customers, enablin
 
 ## 🚀 Live Demo
 
-🔗 **Streamlit App:** *Add your deployment link here*
+🔗 **Streamlit App:** https://ml-customer-lifetime-value-prediction.streamlit.app/
 
 ---
 
